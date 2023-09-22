@@ -36,5 +36,6 @@ const user:User={
     name:'peter'
 }
 
-//type assersion
+//tuple
+const shoes:[number,string,boolean] = [1,'jordans',true]
 
