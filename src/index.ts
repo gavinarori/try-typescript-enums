@@ -39,3 +39,17 @@ const user:User={
 //tuple
 const shoes:[number,string,boolean] = [1,'jordans',true]
 
+//ts object types
+var school:{type:string,years:number,location:string,live:boolean}={
+  type:"public",
+  years :40 ,
+  location :"London ",
+  live :true
+}
+
+const student:{gender:string,course:string,born:number,graduation:number} = {
+  gender:"male",
+  course:"computer science",
+  born:2009,
+  graduation: 2018   //optional property
+}
